@@ -13,7 +13,7 @@ st.title("Dashboard Analisis Bike Sharing")
 # Load Data
 @st.cache_data
 def load_data():
-    return pd.read_csv('day.csv')
+    return pd.read_csv('dashboard/day.csv')
 
 df_day = load_data()
 
